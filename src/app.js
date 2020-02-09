@@ -6,8 +6,8 @@ const app = new Koa();
 const json = require('koa-json');
 const bodyParser = require('koa-bodyparser');
 // const routes = require('./routes');
-// const requestHandler = require('./middleware/RequestHandler');
-// const responseHandler = require('./middleware/ResponseHandler');
+const requestHandler = require('./middleware/RequestHandler');
+const responseHandler = require('./middleware/ResponseHandler');
 
 const sulla = require('sulla-hotfix');
 
