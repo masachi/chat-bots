@@ -12,7 +12,9 @@ const responseHandler = require('./middleware/ResponseHandler');
 const sulla = require('sulla-hotfix');
 
 //create client
-sulla.create().then(client => SullaService.getInstance().listenEvents(client));
+sulla.create().then(client => {
+    SullaService.getInstance().listenEvents(client)
+});
 
 
 // app.use(bodyParser());

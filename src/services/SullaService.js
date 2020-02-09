@@ -9,7 +9,7 @@ export class SullaService {
         return this.instance;
     }
 
-    listenEvents =(client) => {
+    listenEvents(client) {
         client.onMessage(message => {
             console.error("message", JSON.stringify(message));
             if (message.body === 'Hi') {
