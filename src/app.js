@@ -1,13 +1,13 @@
 import ApiNotExistedException from "./exception/ApiNotExistedException";
 import {SullaService} from "./services/SullaService";
 
-const Koa = require('koa');
-const app = new Koa();
-const json = require('koa-json');
-const bodyParser = require('koa-bodyparser');
-const routes = require('./routes');
-const requestHandler = require('./middleware/RequestHandler');
-const responseHandler = require('./middleware/ResponseHandler');
+// const Koa = require('koa');
+// const app = new Koa();
+// const json = require('koa-json');
+// const bodyParser = require('koa-bodyparser');
+// const routes = require('./routes');
+// const requestHandler = require('./middleware/RequestHandler');
+// const responseHandler = require('./middleware/ResponseHandler');
 
 const sulla = require('sulla-hotfix');
 
