@@ -27,7 +27,7 @@
     "sulla-hotfix": "^1.7.7",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "uuid": "^3.2.1",
-    "webpack": "4.19.1",
+    "webpack": "5.94.0",
     "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4",
     "webpack-merge": "^4.1.2"
